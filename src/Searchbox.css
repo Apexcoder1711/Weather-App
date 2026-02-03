@@ -1,0 +1,27 @@
+.searchbox{
+    text-align: center;
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.85); /* White background with 85% opacity */
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.searchbox h3 {
+    color: #333 !important; 
+    margin-bottom: 20px;
+}
+
+.searchbox form {
+    display: flex;
+    flex-direction: column; /* Input ke niche button */
+    align-items: center;    /* Horizontally center */
+    gap: 15px;             /* Input aur Button ke beech space */
+}
+
+.searchbox .MuiButton-root {
+    width: 150px;           /* Button ki width fix karein */
+    padding: 10px;          /* Thoda bada dikhega */
+}
